@@ -1,7 +1,5 @@
 ##############################
 # Name: Suzanne Burger
-# Email: suburger2@gmu,edu
-# G-number: G01241667
 ##############################
 
 # I am loading these librbaries
@@ -112,28 +110,3 @@ p <- ggplot(my_data, aes(x = date, y = `Cycles peak2peak/trough2trough`,
 
 # This is used to make the visualization interactive
 ggplotly(p, tooltip = "text")
-
-
-
-
-
-# Paragraph 1
-#   My visualization is better than the original one because I used more colors. The colors add another aspect of comparison that the 
-# original does not have. Mine has two different comparisons while the original only has one comparison. Comparison is one of the 
-# Tufte's Principles. The comparisons that can be seen in my visualization is the length of the bars which compares each recession's
-# number of cycles and the color of the bars which compare the contractions of each recession. My visualization is is also multitvariate,
-# which is another Tufte's Principle, and the original visualization is not multivariate. Mine uses 2 variables to tell the story, and 
-# the original only uses 1 variable. My visualization also has more data than the original which also helps to tell the story better. The
-# way I included the Tufte's Principle of integration is better than the original visualization. In order to see additional data about the 
-# bars on my visualization the bars have to be hovered over to see the text. In the original visualization the additional data is 
-# placed directly on to the plot. The original visualization is much more crowded and busy than mine is.
-
-
-# Paragraph 2
-#   The datasets are different because the original data set is smaller than the dataset I was given. My dataset has data points for 
-# recessions that occurred in the 1800's that the original does not have. My dataset also has more data points for recessions that 
-# occurred in the 1900's that the original dataset does not have either. The variables in the datasets are also different except 
-# for the date variable. The original dataset has a variable for the number of months. My dataset has a variable for the number of 
-# cycles in a recession as well as the overall contraction for the recession. Since I cannot see the original dataset I cannot say
-# for sure that the original data set does not have more variables. However, based on the data that is presented my dataset has more 
-# variables included in it than the original one.
